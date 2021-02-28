@@ -10,8 +10,8 @@
 #define TRIGGER_PIN_LEFT 8                                                          //Connect Trig pin to D6
 #define ECHO_PIN_LEFT 9                                                             //Connect Echo pin to D7
 
-//#define TRIGGER_PIN_FRONT 31                                                       //Connect Trig pin to D8
-//#define ECHO_PIN_FRONT 30                                                          //Connect Echo pin to D9
+#define TRIGGER_PIN_FRONT 31                                                       //Connect Trig pin to D8
+#define ECHO_PIN_FRONT 30                                                          //Connect Echo pin to D9
 
 #define p0 22                                                                       //Connect D22 to pin 2 of L923D                                                                       
 #define p1 23                                                                       //Connect D23 to pin 7 of L923D         
@@ -82,7 +82,7 @@ void loop()
 
 //////////////////////////////////////////////////////////////////////
 
-  /*digitalWrite(TRIGGER_PIN_FRONT, LOW);
+ digitalWrite(TRIGGER_PIN_FRONT, LOW);
   delay(2);
 
   digitalWrite(TRIGGER_PIN_FRONT, HIGH);
@@ -94,7 +94,7 @@ void loop()
 
   Serial.print( "Front distance = ");
   Serial.println(Frontdistance);
-*/
+
 ///////////////////////////////////////////////////////////////////////
 
 if( Leftdistance>5 && Rightdistance>5)  ////////Frontdistance>5 &&
@@ -110,7 +110,7 @@ if( Leftdistance>5 && Rightdistance>5)  ////////Frontdistance>5 &&
    else
      stop_();    
  }                                                                                                //////////////From here comes the code for obstacle avoidance
-/*else if(Frontdistance<=5)
+else if(Frontdistance<=5)
  {
   stop_();
   delay(200);
@@ -132,7 +132,7 @@ if( Leftdistance>5 && Rightdistance>5)  ////////Frontdistance>5 &&
       stop_();
       delay(100);
     }
- }*/
+ }
 else if (Leftdistance<=10 && Rightdistance<=10)
 {
   backward_();
