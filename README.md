@@ -1,4 +1,4 @@
-# Hand-gesture-contolled-car
+# Jagiya-bot
 
 ## Inspiration
 The phrase "_ungliyon pe nachana_" which literally translates to "_making someone dance on your commands_" made me inquisitive enough to make this bot
