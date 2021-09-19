@@ -1,23 +1,3 @@
-/*
-  Modified 28 November 2019, by LINGIB
-  https://www.instructables.com/member/lingib/instructables/
-
-  This function MUST be called each time through the loop as it updates
-  the accelerometer, gyro, magnetometer, and quaternion values.
-  In I2C mode we must poll the MPU9250 interrupt status register to see
-  if the output data is ready.
-
-  ---------------
-  Terms of use:
-  ---------------
-  The software is provided "AS IS", without any warranty of any kind, express or implied,
-  including but not limited to the warranties of mechantability, fitness for a particular
-  purpose and noninfringement. In no event shall the authors or copyright holders be liable
-  for any claim, damages or other liability, whether in an action of contract, tort or
-  otherwise, arising from, out of or in connection with the software or the use or other
-  dealings in the software. 
-*/
-
 void refresh_data()
 {
   // ----- Poll the MPU9250 interrupt status in I2C mode
