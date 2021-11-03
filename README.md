@@ -1,5 +1,7 @@
 # Jagiya-bot
 
+https://user-images.githubusercontent.com/49099853/140011986-89487f6f-3bc4-42c4-88eb-9333cc8d791c.mp4
+
 ## Inspiration
 The phrase "_ungliyon pe nachana_" which literally translates to "_making someone dance on your commands_" made me inquisitive enough to make this bot
 ## What it does
