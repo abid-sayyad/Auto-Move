@@ -1,4 +1,4 @@
-# Jagiya-bot
+# Auto-Move
 
 https://user-images.githubusercontent.com/49099853/140011986-89487f6f-3bc4-42c4-88eb-9333cc8d791c.mp4
 
